@@ -18,7 +18,7 @@ class stickersMod(loader.Module):
       spam = False
       await message.delete()
       
-  async def zarcmd(self, message):
+  async def zarcmd(self, msg):
       """(@id/@user/t.me) заражение по айди""" 
       args = utils.get_args_raw(msg)
       if not args:
